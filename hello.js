@@ -3,16 +3,27 @@ Welcome, new coder.
 Enter your code on line 7 to print 'Hello, World!' 
 to the console (the panel on the right)
 */
+const num1 = 4;
+const num2 = 5;
+const sum = num1 + num2; 
+const message1 = "I am learning JavaScript.";
+const message2 = "This is going to great!";
+console.log("Hello, World!")
+console.log(sum);
+console.log("Hi!");
+console.log("I am learning JavaScript.");
+console.log("This is going to be great!");
+console.log(`${message1} ${message2}`);
+console.log('In the wise words of NIKE "Just Do It!".');
 
-console.log("Hello");
 
 /*  
 Next, PLAY! 
 Modify your code on line 7 to try to accomplish the tasks listed below:
 
    1. Change the message that is printed.
-   2. Figure out what the parentheses do. Will the code work without them?
-   3. Remove one or both quotation marks. Do we need to include both opening and closing quote marks? Is there a difference between using a single or a double quote (' vs. ")?
+   2. Figure out what the parentheses do. Will the code work without them? NO
+   3. Remove one or both quotation marks. Do we need to include both opening and closing quote marks? YES Is there a difference between using a single or a double quote (' vs. ")? NO
    4. Remove the semi-colon, ;.
    5. Print a number. (Bonus: Print two numbers added together).
    6. Print multiple messages one after the other.
